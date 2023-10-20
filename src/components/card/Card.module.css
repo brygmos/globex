@@ -1,0 +1,60 @@
+.cardContainer {
+    width: 357px;
+    height: 314px;
+    border-radius: var(--radius);
+    padding: 24px;
+
+    -webkit-box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.2);
+}
+
+.cardContainer:hover {
+    -webkit-box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.25);
+    box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.25);
+
+    cursor: pointer;
+}
+
+.cardContainer h2 {
+    margin: 0;
+}
+
+.contactsBlock {
+    margin-top: 24px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contact {
+    display: flex;
+}
+
+.contact p {
+    margin: 0;
+    margin-left: 14px;
+    color: var(--asphalt);
+    line-height: 20px;
+}
+
+.iconContainer {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainer img {
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .cardContainer{
+        margin: 20px 0;
+    }
+}

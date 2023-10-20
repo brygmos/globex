@@ -1,0 +1,35 @@
+.cardsContainer {
+    margin: 32px auto;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+
+.cardsCenter {
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+@media (max-width: 1120px) {
+    .cards{
+        justify-items: center;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .cardsContainer{
+        margin: 3em 0 0 0;
+    }
+    .cards{
+        display: block;
+        margin: 0 auto;
+    }
+}
